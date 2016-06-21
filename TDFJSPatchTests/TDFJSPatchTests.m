@@ -7,9 +7,11 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <AFNetworking/AFNetworking.h>
+#import <STAlertView/STAlertView.h>
 
 @interface TDFJSPatchTests : XCTestCase
-
+@property (nonatomic, strong) STAlertView *stAlertView;
 @end
 
 @implementation TDFJSPatchTests
@@ -25,8 +27,7 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+   
 }
 
 - (void)testPerformanceExample {

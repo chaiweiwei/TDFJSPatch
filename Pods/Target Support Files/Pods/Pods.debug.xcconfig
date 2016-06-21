@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/JSPatch" "${PODS_ROOT}/Headers/Public/Nimbus" "${PODS_ROOT}/Headers/Public/SSZipArchive" "${PODS_ROOT}/Headers/Public/STAlertView"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/JSPatch" -isystem "${PODS_ROOT}/Headers/Public/Nimbus" -isystem "${PODS_ROOT}/Headers/Public/SSZipArchive" -isystem "${PODS_ROOT}/Headers/Public/STAlertView"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"JSPatch" -l"Nimbus" -l"SSZipArchive" -l"STAlertView" -l"z" -framework "CoreGraphics" -framework "CoreLocation" -framework "Foundation" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "JavaScriptCore"
+PODS_ROOT = ${SRCROOT}/Pods

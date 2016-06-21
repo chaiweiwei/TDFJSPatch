@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3851A67F1D19246800574221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3851A67E1D19246800574221 /* main.m */; };
-		3851A6821D19246800574221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3851A6811D19246800574221 /* AppDelegate.m */; };
-		3851A6851D19246800574221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3851A6841D19246800574221 /* ViewController.m */; };
 		3851A6881D19246800574221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3851A6861D19246800574221 /* Main.storyboard */; };
 		3851A68A1D19246800574221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3851A6891D19246800574221 /* Assets.xcassets */; };
 		3851A68D1D19246800574221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3851A68B1D19246800574221 /* LaunchScreen.storyboard */; };
 		3851A6981D19246800574221 /* TDFJSPatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3851A6971D19246800574221 /* TDFJSPatchTests.m */; };
 		3851A6A31D19246800574221 /* TDFJSPatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3851A6A21D19246800574221 /* TDFJSPatchUITests.m */; };
+		3851A6B41D19319400574221 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3851A6B11D19319400574221 /* GlobeConst.m */; };
+		3851A6B51D19319400574221 /* TDFJSPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3851A6B31D19319400574221 /* TDFJSPatch.m */; };
+		3851A6B81D1931D600574221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3851A6B71D1931D600574221 /* AppDelegate.m */; };
+		DE7273D193111D1988C5CEB5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1C501E896BD4308EB6BA75 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +39,6 @@
 /* Begin PBXFileReference section */
 		3851A67A1D19246800574221 /* TDFJSPatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDFJSPatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3851A67E1D19246800574221 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3851A6801D19246800574221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3851A6811D19246800574221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3851A6831D19246800574221 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3851A6841D19246800574221 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3851A6871D19246800574221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3851A6891D19246800574221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3851A68C1D19246800574221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,15 @@
 		3851A69E1D19246800574221 /* TDFJSPatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDFJSPatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3851A6A21D19246800574221 /* TDFJSPatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDFJSPatchUITests.m; sourceTree = "<group>"; };
 		3851A6A41D19246800574221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3851A6B01D19319400574221 /* GlobeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobeConst.h; sourceTree = "<group>"; };
+		3851A6B11D19319400574221 /* GlobeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeConst.m; sourceTree = "<group>"; };
+		3851A6B21D19319400574221 /* TDFJSPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDFJSPatch.h; sourceTree = "<group>"; };
+		3851A6B31D19319400574221 /* TDFJSPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDFJSPatch.m; sourceTree = "<group>"; };
+		3851A6B61D1931D600574221 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3851A6B71D1931D600574221 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE1C501E896BD4308EB6BA75 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF4C814BF66057B147BD9AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DBEFFD2C5DCEBF8D09CDC826 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7273D193111D1988C5CEB5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				3851A6961D19246800574221 /* TDFJSPatchTests */,
 				3851A6A11D19246800574221 /* TDFJSPatchUITests */,
 				3851A67B1D19246800574221 /* Products */,
+				DEA245282840A7C359471E2F /* Pods */,
+				D15887832036E9DF988C1DCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +111,12 @@
 		3851A67C1D19246800574221 /* TDFJSPatch */ = {
 			isa = PBXGroup;
 			children = (
-				3851A6801D19246800574221 /* AppDelegate.h */,
-				3851A6811D19246800574221 /* AppDelegate.m */,
-				3851A6831D19246800574221 /* ViewController.h */,
-				3851A6841D19246800574221 /* ViewController.m */,
+				3851A6B61D1931D600574221 /* AppDelegate.h */,
+				3851A6B71D1931D600574221 /* AppDelegate.m */,
+				3851A6B01D19319400574221 /* GlobeConst.h */,
+				3851A6B11D19319400574221 /* GlobeConst.m */,
+				3851A6B21D19319400574221 /* TDFJSPatch.h */,
+				3851A6B31D19319400574221 /* TDFJSPatch.m */,
 				3851A6861D19246800574221 /* Main.storyboard */,
 				3851A6891D19246800574221 /* Assets.xcassets */,
 				3851A68B1D19246800574221 /* LaunchScreen.storyboard */,
@@ -140,6 +152,23 @@
 			path = TDFJSPatchUITests;
 			sourceTree = "<group>";
 		};
+		D15887832036E9DF988C1DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE1C501E896BD4308EB6BA75 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEA245282840A7C359471E2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBEFFD2C5DCEBF8D09CDC826 /* Pods.debug.xcconfig */,
+				CEF4C814BF66057B147BD9AB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3851A6A71D19246800574221 /* Build configuration list for PBXNativeTarget "TDFJSPatch" */;
 			buildPhases = (
+				2B96460086A6E8D42F20D491 /* Check Pods Manifest.lock */,
 				3851A6761D19246800574221 /* Sources */,
 				3851A6771D19246800574221 /* Frameworks */,
 				3851A6781D19246800574221 /* Resources */,
+				03C25E2617B5AAA30DE9F29E /* Embed Pods Frameworks */,
+				B56C527B1C11888920EC6E89 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +297,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03C25E2617B5AAA30DE9F29E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B96460086A6E8D42F20D491 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B56C527B1C11888920EC6E89 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3851A6761D19246800574221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3851A6851D19246800574221 /* ViewController.m in Sources */,
-				3851A6821D19246800574221 /* AppDelegate.m in Sources */,
+				3851A6B81D1931D600574221 /* AppDelegate.m in Sources */,
+				3851A6B51D19319400574221 /* TDFJSPatch.m in Sources */,
 				3851A67F1D19246800574221 /* main.m in Sources */,
+				3851A6B41D19319400574221 /* GlobeConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +492,7 @@
 		};
 		3851A6A81D19246800574221 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEFFD2C5DCEBF8D09CDC826 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TDFJSPatch/Info.plist;
@@ -422,6 +504,7 @@
 		};
 		3851A6A91D19246800574221 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF4C814BF66057B147BD9AB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TDFJSPatch/Info.plist;
@@ -435,8 +518,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
+					"\"${PODS_ROOT}/Headers/Public/Nimbus\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/STAlertView\"",
+				);
 				INFOPLIST_FILE = TDFJSPatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = test.TDFJSPatchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDFJSPatch.app/TDFJSPatch";
@@ -447,8 +540,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
+					"\"${PODS_ROOT}/Headers/Public/Nimbus\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/STAlertView\"",
+				);
 				INFOPLIST_FILE = TDFJSPatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = test.TDFJSPatchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDFJSPatch.app/TDFJSPatch";
@@ -498,6 +601,7 @@
 				3851A6A91D19246800574221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3851A6AA1D19246800574221 /* Build configuration list for PBXNativeTarget "TDFJSPatchTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +610,7 @@
 				3851A6AC1D19246800574221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3851A6AD1D19246800574221 /* Build configuration list for PBXNativeTarget "TDFJSPatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +619,7 @@
 				3851A6AF1D19246800574221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
