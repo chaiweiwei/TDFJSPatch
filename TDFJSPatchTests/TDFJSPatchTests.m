@@ -8,7 +8,6 @@
 
 #import <XCTest/XCTest.h>
 #import <AFNetworking/AFNetworking.h>
-#import <STAlertView/STAlertView.h>
 
 @interface TDFJSPatchTests : XCTestCase
 @property (nonatomic, strong) STAlertView *stAlertView;
